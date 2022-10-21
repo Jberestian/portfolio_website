@@ -1,0 +1,1 @@
+{"mappings":"AAAgBA,SAASC,iBAAiB","sources":["src/index.js"],"sourcesContent":["const section = document.querySelectorAll('.section');\n"],"names":["document","querySelectorAll"],"version":3,"file":"index.130cd108.js.map"}
