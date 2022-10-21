@@ -1,0 +1,2 @@
+document.querySelectorAll(".section"),document.querySelectorAll(".controlls");const e=document.querySelectorAll(".control");document.querySelector(".main-content");!function(){for(let t=0;t<e.length;t++)e[t].addEventListener("click",(function(){let e=document.querySelectorAll(".active-btn");e[0].className=e[0].className.replace("active-btn",""),this.className+=" active-btn"}))}();
+//# sourceMappingURL=index.f315fa76.js.map

@@ -1,0 +1,2 @@
+!function(){document.querySelectorAll(".section"),document.querySelectorAll(".controlls");var e=document.querySelectorAll(".control");document.querySelector(".main-content");!function(){for(var t=0;t<e.length;t++)e[t].addEventListener("click",(function(){var e=document.querySelectorAll(".active-btn");e[0].className=e[0].className.replace("active-btn",""),this.className+=" active-btn"}))}()}();
+//# sourceMappingURL=index.9ba244a3.js.map
