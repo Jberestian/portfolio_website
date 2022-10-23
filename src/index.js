@@ -5,6 +5,7 @@ const allSections = document.querySelector('.main-content');
 
 function pageTransitions() {
   //Button clicks active class
+
   for (let i = 0; i < sectBtn.length; i++) {
     sectBtn[i].addEventListener('click', function () {
       let currentBtn = document.querySelectorAll('.active-btn');
@@ -15,17 +16,21 @@ function pageTransitions() {
       this.className += ' active-btn';
     });
   }
+
   //Sections active class
+
   allSections.addEventListener('click', e => {
     const id = e.target.dataset.id;
     if (id) {
       //removu selected from the other button
+
       sectBtns.forEach(btn => {
         btn.classList.remove('active');
       });
       e.target.classList.add('active');
 
       //hide other sections
+
       sections.forEach(section => {
         section.classList.remove('active');
       });
