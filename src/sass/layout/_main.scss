@@ -88,6 +88,32 @@ section {
   }
 }
 
+//theme-btn
+
+.theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 5%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--color-gray-4);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+  &:active {
+    transform: translateY(-5px);
+  }
+  i {
+    font-size: 1.4rem;
+    color: var(--color-gray-2);
+    pointer-events: none;
+  }
+}
+
 //section about
 
 .main-title {
