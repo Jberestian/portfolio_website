@@ -1,0 +1,11 @@
+// media query for adaptive design
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  .right-header {
+    padding-right: 0;
+    // padding: 2rem !important;
+  }
+}
