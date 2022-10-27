@@ -1,18 +1,18 @@
 {
   "name": "portfolio_website",
   "version": "2.0.0",
+  "description": "",
+  "homepage": "https://jberestian.github.io/portfolio_website/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/",
-    "deploy": "netlify deploy -p"
+    "build": "parcel build src/*.html --public-url /parcel-project-template/"
   },
   "keywords": [],
   "author": "Yevhen Berestian <jberestian@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.7.7",
-    "modern-normalize": "^1.1.0",
-    "netlify-cli": "^12.0.11"
+    "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
