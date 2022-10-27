@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "deploy": "netlify deploy -p"
   },
   "keywords": [],
   "author": "Yevhen Berestian <jberestian@gmail.com>",
