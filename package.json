@@ -1,6 +1,8 @@
 {
   "name": "portfolio_website",
   "version": "2.0.0",
+  "description": "",
+  "homepage": "https://jberestian.github.io/portfolio_website/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
