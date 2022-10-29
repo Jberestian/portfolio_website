@@ -1,9 +1,9 @@
-@import './utils/reset';
-@import './utils/variables';
+@import 'utils/reset';
+@import 'utils/variables';
 
-@import './base/common';
+@import 'base/common';
 
-@import './layout/header';
-@import './layout/main';
-@import './layout/footer';
-@import './layout/media';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/media';
