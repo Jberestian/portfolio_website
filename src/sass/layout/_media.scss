@@ -12,15 +12,18 @@
 //     }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  p {
+    color: red;
+  }
   header {
     padding: 0;
     overflow: scroll;
   }
   .header-content .right-header {
     padding-right: 0;
-    // padding: 2rem !important;
   }
-  .header-content .left-header .h-shape {
-    padding: 10px 0;
+
+  .btn-container {
+    padding-bottom: 20px;
   }
 }
