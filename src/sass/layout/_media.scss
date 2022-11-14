@@ -12,8 +12,12 @@
 //     }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .image {
+    display: none;
+  }
+
   p {
-    color: red;
+    // font-size: 15px;
   }
   header {
     padding: 0;
