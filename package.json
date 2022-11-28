@@ -5,7 +5,7 @@
   "homepage": "https://jberestian.github.io/portfolio_website/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url ./parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /portfolio_website/"
   },
   "keywords": [],
   "author": "Yevhen Berestian <jberestian@gmail.com>",
