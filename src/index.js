@@ -2,6 +2,51 @@ const sections = document.querySelectorAll('.section');
 const sectBtns = document.querySelectorAll('.controlls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
+const contactForm = document.querySelector('.contact-form');
+const submitBtn = document.querySelector('.submit-btn');
+const nameInput = document.querySelector('#user_name');
+const emailInput = document.querySelector('#user_email');
+const messageInput = document.querySelector('#message');
+
+// feedback form function
+
+const publicKey = 'H1Qy3UEI5MYPz9ACY';
+const serverId = 'service_9zacn7d';
+const templateId = 'template_1rep73i';
+
+// initialize emailjs with public key
+
+emailjs.init(publicKey);
+
+contactForm.addEventListener('submit', e => {
+  e.preventDefault;
+  submitBtn.innerText = 'Just A Moment...';
+
+  // Get all input values
+
+  const inputFields = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  //Send the Emails. Add service, template ID and input fields values.
+
+  emailjs.send(serverId, templateId, inputFields);
+  then(
+    () => {
+      submitBtn.innerText = 'Message send succsessfully';
+
+      nameInput.value = '';
+      emailInput.value = '';
+      messageInput.value = '';
+    },
+    error => {
+      console.log(error);
+      submitBtn.innerText = 'Something went wrong';
+    }
+  );
+});
 
 function pageTransitions() {
   //Button clicks active class
