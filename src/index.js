@@ -11,8 +11,8 @@ const messageInput = document.querySelector('#message');
 // feedback form function
 
 const publicKey = 'H1Qy3UEI5MYPz9ACY';
-const serverId = 'service_9zacn7d';
-const templateId = 'template_1rep73i';
+const serviceID = 'service_9zacn7d';
+const templateID = 'template_1rep73i';
 
 // initialize emailjs with public key
 
@@ -32,7 +32,7 @@ contactForm.addEventListener('submit', e => {
 
   //Send the Emails. Add service, template ID and input fields values.
 
-  emailjs.send(serverId, templateId, inputFields);
+  emailjs.send(serviceID, templateID, inputFields);
   then(
     () => {
       submitBtn.innerText = 'Message send succsessfully';
