@@ -32,7 +32,7 @@ contactForm.addEventListener('submit', e => {
 
   //Send the Emails. Add service, template ID and input fields values.
 
-  emailjs.send(serviceID, templateID, inputFields);
+  emailjs.send(serviceID, templateID, inputFields, publicKey);
   then(
     () => {
       submitBtn.innerText = 'Message send succsessfully';
