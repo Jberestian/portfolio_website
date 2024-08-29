@@ -1,4 +1,13 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .about {
+    padding: 10px;
+  }
+
+  .main-title h2 .bg-text {
+    top: 30%;
+    left: 15%;
+  }
+
   .image {
     display: none;
   }
@@ -13,6 +22,26 @@
 
   .btn-container {
     padding-bottom: 20px;
+  }
+
+  .about-container {
+    display: inline-block;
+
+    .right-about {
+      display: block;
+    }
+    .about-item {
+      margin-bottom: 15px;
+    }
+  }
+
+  .timeline {
+    display: inline-block;
+    margin-left: 25px;
+
+    .timeline-item {
+      margin-bottom: 15px;
+    }
   }
 }
 
